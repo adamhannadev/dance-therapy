@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  figure: one
+  element: one
+  step_number: 1
+  foot_position: MyString
+  details: MyString
+  count: MyString
+
+two:
+  figure: two
+  element: two
+  step_number: 1
+  foot_position: MyString
+  details: MyString
+  count: MyString
