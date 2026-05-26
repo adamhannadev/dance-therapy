@@ -1,0 +1,45 @@
+figures:
+  - figure:
+      name: "Basic One"
+      role: "leader"
+      notes: "This figure may rotate slightly to the left or to the right. Basic One is great for building a grounded connection to your partner at the beginning of a song, during slow parts of a song or any time you want to reconnect."
+
+    elements:
+      - name: "Slow LF Step"
+      - name: "Slow RF Step"
+
+    steps:
+      - step_number: 1
+        element: "Slow LF Step"
+        foot_position: "Step LF in place."
+        details: ""
+        count: "12"
+
+      - step_number: 2
+        element: "Slow RF Step"
+        foot_position: "Step RF in place."
+        details: ""
+        count: "34"
+
+  - figure:
+      name: "Basic One"
+      role: "follower"
+      notes: "The follower connects to the breath and weight transfer of the leader to best inform their own weight transfers and style."
+
+    elements:
+      - name: "Slow RF Step"
+      - name: "Slow LF Step"
+
+    steps:
+      - step_number: 1
+        element: "Slow RF Step"
+        foot_position: "Step RF in place."
+        details: ""
+        count: "12"
+
+      - step_number: 2
+        element: "Slow LF Step"
+        foot_position: "Step LF in place."
+        details: ""
+        count: "34"
+
