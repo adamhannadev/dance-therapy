@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2026_05_25_044750) do
+ActiveRecord::Schema[7.2].define(version: 2026_05_28_014522) do
   create_table "elements", force: :cascade do |t|
     t.integer "figure_id", null: false
     t.string "name"
@@ -30,7 +30,7 @@ ActiveRecord::Schema[7.2].define(version: 2026_05_25_044750) do
   create_table "steps", force: :cascade do |t|
     t.integer "figure_id", null: false
     t.integer "element_id", null: false
-    t.integer "step_number"
+    t.string "step_number"
     t.string "foot_position"
     t.string "details"
     t.string "count"

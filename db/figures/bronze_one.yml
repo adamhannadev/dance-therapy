@@ -9,13 +9,13 @@ figures:
       - name: "Slow RF Step"
 
     steps:
-      - step_number: 1
+      - step_number: "1"
         element: "Slow LF Step"
         foot_position: "Step LF in place."
         details: ""
         count: "12"
 
-      - step_number: 2
+      - step_number: "2"
         element: "Slow RF Step"
         foot_position: "Step RF in place."
         details: ""
@@ -31,13 +31,13 @@ figures:
       - name: "Slow LF Step"
 
     steps:
-      - step_number: 1
+      - step_number: "1"
         element: "Slow RF Step"
         foot_position: "Step RF in place."
         details: ""
         count: "12"
 
-      - step_number: 2
+      - step_number: "2"
         element: "Slow LF Step"
         foot_position: "Step LF in place."
         details: ""
@@ -49,21 +49,28 @@ figures:
         notes: "The pressure on the Marca should be around 50% of your weight with a fully flat foot to feel grounded and connected to the floor and your partner."
         parent_figure: 1
 
-      elements:
-        - name: "LF Marca"
-        - name: "Slow LF Step"
-        - name: "RF Marca and Slow RF Step"
+    elements:
+      - name: "LF Marca"
+      - name: "Slow LF Step"
+      - name: "RF Marca and Slow RF Step"
 
-      steps:
-        - step_number: 1
-          element: "LF Marca"
-          foot_position: "Press LF in place."
-          details: ""
-          count: "1"
-        - step_number: 2
-          element: "LF Marca"
-          foot_position: "Replace RF."
-          details: ""
-          count: "2"
-        - step_number: 3
-          element: "Slow LF Step"
+    steps:
+      - step_number: "1"
+        element: "LF Marca"
+        foot_position: "Press LF in place."
+        details: ""
+        count: "1"
+      - step_number: "2"
+        element: "LF Marca"
+        foot_position: "Replace RF."
+        details: ""
+        count: "2"
+      - step_number: "3"
+        element: "Slow LF Step"
+        details: ""
+        foot_position: "Slow LF Step."
+        count: "34"
+      - step_number: "4-6"
+        element: "RF Marca and Slow RF Step"
+        foot_position: "Repeat steps 1-3 with RF."
+        count: "1234"
