@@ -43,3 +43,27 @@ figures:
         details: ""
         count: "34"
 
+  - figure:
+        name: "Marca"
+        role: "leader"
+        notes: "The pressure on the Marca should be around 50% of your weight with a fully flat foot to feel grounded and connected to the floor and your partner."
+        parent_figure: 1
+
+      elements:
+        - name: "LF Marca"
+        - name: "Slow LF Step"
+        - name: "RF Marca and Slow RF Step"
+
+      steps:
+        - step_number: 1
+          element: "LF Marca"
+          foot_position: "Press LF in place."
+          details: ""
+          count: "1"
+        - step_number: 2
+          element: "LF Marca"
+          foot_position: "Replace RF."
+          details: ""
+          count: "2"
+        - step_number: 3
+          element: "Slow LF Step"
