@@ -2,17 +2,33 @@
 <p>Find me in app/views/figures/index.html.erb</p>
 
 
-<table>
-    <thead>
-        <th>Figure Name</th>
-        <th>Role</th>
+<table class="table">
+    <thead class="thead-dark">
+        <th>Step</th>
+        <th>Foot Position</th>
+        <th>Details</th>
+        <th>Count</th>
+        <th>Element</th>
     </thead>
     <tbody>
-        <% @figures.each do |f| %>
-        <tr>
-            <td><%= f.name %></td>
-            <td><%= f.role %></td>
+        <tr><td colspan="5" style="text-align:center;font-weight:bold;">1 - Basic One (Leader)</td></tr>
+        <tr class="row">
+            <td>1</td>
+            <td>Step LF in place.</td>
+            <td></td>
+            <td>12</td>
+            <td>Slow LF Step</td>
         </tr>
-        <% end %>
+        <tr>
+            <td>2</td>
+            <td>Step RF in place.</td>
+            <td></td>
+            <td>34</td>
+            <td>Slow RF Step</td>
+        </tr>
+        <tr>
+            <td>Notes:</td>
+            <td>This figure may rotate slightly to the right or left.</td>
+        </tr>
     </tbody>
 </table>
