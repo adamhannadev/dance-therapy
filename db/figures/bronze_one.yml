@@ -47,7 +47,7 @@ figures:
         name: "Marca"
         role: "leader"
         notes: "The pressure on the Marca should be around 50% of your weight with a fully flat foot to feel grounded and connected to the floor and your partner."
-        parent_figure: 1
+        parent_figure: "Basic One"
 
     elements:
       - name: "LF Marca"
@@ -74,3 +74,113 @@ figures:
         element: "RF Marca and Slow RF Step"
         foot_position: "Repeat steps 1-3 with RF."
         count: "1234"
+
+  - figure:
+        name: "Marca"
+        role: "follower"
+        notes: "The leader should initiate the movement slightly brfore the music so the follower can place their feet on the beat."
+        parent_figure: "Basic One"
+
+    elements:
+      - name: "RF Marca"
+      - name: "Slow RF Step"
+      - name: "LF Marca and Slow LF Step"
+
+    steps:
+      - step_number: "1"
+        element: "RF Marca"
+        foot_position: "Press RF in place."
+        count: "1"
+      - step_number: "2"
+        element: "RF Marca"
+        foot_position: "Replace LF"
+        count: "2"
+      - step_number: "3"
+        element: "Slow RF Step"
+        foot_position: "Slow RF Step"
+        count: "34"
+      - step_number: "4-6"
+        element: "LF Marca and Slow LF Step"
+        foot_position: "Repeat steps 1-3 with LF."
+        count: "1234"
+  
+  - figure:
+        name: "Deceleration"
+        role: "leader"
+        notes: "Any step can be decelerated for any number of counts. A great exercise is practicing deceleration in other figures once you feel comfortable with the foot positions to play with musicality."
+        parent_figure: "Basic One"
+    elements:
+      - name: "Decelerated Basic One"
+    steps:
+      - step_number: "1"
+        element: "Decelerated Basic One"
+        foot_position: "Step LF in Place"
+        count: "1234"
+      - step_number: "2"
+        element: "Decelerated Basic One"
+        foot_position: "Step RF in Place"
+        count: "1234"
+
+  - figure:
+        name: "Deceleration"
+        role: "follower"
+        parent_figure: "Basic One"
+    elements:
+      - name: "Decelerated Basic One"
+    steps:
+      - step_number: "1"
+        element: "Decelerated Basic One"
+        foot_position: "Step RF in place."
+        count: "1234"
+      - step_number: "2"
+        element: "Decelerated Basic One"
+        foot_position: "Step LF in place."
+        count: "1234"
+
+  - figure:
+        name: "Basic Two - Side to Side"
+        role: "leader"
+    elements:
+      - name: "Left Side Basic Two"
+      - name: "Right Side Basic Two"
+    steps:
+      - step_number: "1"
+        element: "Left Side Basic Two"
+        foot_position: "Step LF side."
+        count: "1"
+      - step_number: "2"
+        element: "Left Side Basic Two"
+        foot_position: "Press RF closed."
+        count: "2"
+      - step_number: "3"
+        element: "Right Side Basic Two"
+        foot_position: "Step RF side."
+        count: "3"
+      - step_number: "4"
+        element: "Right Side Basic Two"
+        foot_position: "Press LF closed."
+        count: "4"
+
+  - figure:
+        name: "Basic Two - Side to Side"
+        role: "follower"
+    elements:
+      - name: "Right Side Basic Two"
+      - name: "Left Side Basic Two"
+    steps:
+      - step_number: "1"
+        element: "Right Side Basic Two"
+        foot_position: "Step RF side."
+        count: "1"
+      - step_number: "2"
+        element: "Right Side Basic Two"
+        foot_position: "Press LF closed."
+        count: "2"
+      - step_number: "3"
+        element: "Left Side Basic Two"
+        foot_position: "Step LF side."
+        count: "3"
+      - step_number: "4"
+        element: "Left Side Basic Two"
+        foot_position: "Press RF closed."
+        count: "4"
