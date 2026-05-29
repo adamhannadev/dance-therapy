@@ -1,0 +1,18 @@
+<h1>Figures#index</h1>
+<p>Find me in app/views/figures/index.html.erb</p>
+
+
+<table>
+    <thead>
+        <th>Figure Name</th>
+        <th>Role</th>
+    </thead>
+    <tbody>
+        <% @figures.each do |f| %>
+        <tr>
+            <td><%= f.name %></td>
+            <td><%= f.role %></td>
+        </tr>
+        <% end %>
+    </tbody>
+</table>
